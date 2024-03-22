@@ -10,6 +10,10 @@ React tarafını ve Birim testkerini yetiştiremedim kusura bakmayın
 
 Postman'de APIleri deneyebilmeniz için collections oluşturdum "studentManagementAPI.postman_collection.json" dosyasına bakınız
 
+Swagger için : 
+
+http://localhost:8080/swagger-ui/index.html
+
 ![1-TOKEN belirtmeden istek attıgım icin hata aldım yetkili birisinin ADMIN birisinin istek atması gerekiyor ADMIN olan birinin tokenini kullanalım](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/a8623402-1b88-4f69-a7a1-5aed80125bdc)
 
 1-TOKEN belirtmeden istek attıgım icin hata aldım yetkili birisinin ADMIN birisinin istek atması gerekiyor ADMIN olan birinin tokenini kullanalım

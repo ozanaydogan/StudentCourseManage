@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "52346517-e749-4fcb-99b5-cc9766f10219",
+		"name": "studentManagementAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28200822"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/v1/course/createCourse",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"courseName\":\"Beden\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/course/createCourse"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/auth/register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"firstname\":\"ozandeniyorum\",\r\n        \"lastname\":\"ozandeniyorum\",\r\n        \"email\":\"ozandeniyorum@gmail\",\r\n        \"password\":\"12314\",\r\n        \"role\":\"ADMIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/auth/register"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/course/deleteCoursebyId/21",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/course/deleteCoursebyId/21"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/course/deleteCoursebyId/12",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/course/deleteCoursebyId/12"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/student/deleteCourseFromStudent/6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \t\"courseId\":12,\r\n\t    \"courseName\":\"Fizik\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/student/deleteCourseFromStudent/6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/course/getAllCourses",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/course/getAllCourses"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/course/filtercoursebyStudent/6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/course/filtercoursebyStudent/6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/student/getAllStudents",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/student/getStudentby/6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/student/assignCoursToStudent/6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \t\"courseId\":17,\r\n\t    \"courseName\":\"Felsefe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/student/assignCoursToStudent/6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/student/deleteCourseFromStudent/6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \t\"courseId\":15,\r\n\t    \"courseName\":\"Müzik\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/student/deleteCourseFromStudent/6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/student/filterStudentbyCourse/17",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/student/filterStudentbyCourse/17"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"currentPassword\":\"12314\",\r\n        \"newPassword\":\"160202\",\r\n        \"confirmationPassword\":\"160202\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/auth/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"email\":\"studentozan@gmail\",\r\n        \"password\":\"53242\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/auth/authenticate"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/auth/deleteUser/6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJrZXl0eXBlIjoiQUNDRVNTIiwic3ViIjoib3phbmRlbml5b3J1bUBnbWFpbCIsImlhdCI6MTcxMTA4MjI1MCwiZXhwIjoxNzExMTY4NjUwfQ.QxZXMB79W5Jr0EMHflgVkvdrgoFwsjZjVRAxWJ1GKGs"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/auth/deleteUser/6"
+			},
+			"response": []
+		}
+	]
+}

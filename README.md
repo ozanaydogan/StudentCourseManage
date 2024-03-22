@@ -97,51 +97,119 @@ React tarafını yetiştiremedim kusura bakmayın
 
 ![1 kayıtlı tum ogrencileri getirdik](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/cc1997d6-3462-4783-9e06-c4e522356a23)
 
-1 kayıtlı tum ogrencileri getirdik
+1- kayıtlı tum ogrencileri getirdik
 
 ![2 idye gore student getirdik](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/10b7ff9d-bfd4-413e-94a3-68d9e63e80fe)
 
-2 idye gore student getirdik
+2- idye gore student getirdik
 
 ![3 student yoksa null doner](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/aa267b3a-d880-41ce-aa0d-91a05c8cf802)
 
-3 student yoksa null doner
+3- student yoksa null doner
 
 ![4 simdi ogrenciye ders atadık](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/d6bb9e09-5146-4ff7-821f-cad5354f09d1)
 
-4 simdi ogrenciye ders atadık
+4- simdi ogrenciye ders atadık
 
 ![5](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/8e0ab4f0-2e5b-49c6-8568-3c9f5994507a)
 
-5
+5-
 
 ![6 eğer ogrenci bu kursa sahipse hata verir](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/237df2f6-163b-4f02-93f1-7e8cf45905e9)
 
-6 eğer ogrenci bu kursa sahipse hata verir
+6- eğer ogrenci bu kursa sahipse hata verir
 
 ![7 eger boyle bir ogrenci yoksa da hata verir](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/2c5a239a-44e3-4dc9-b55a-bc57065f42fe)
 
-7 eger boyle bir ogrenci yoksa da hata verir
+7- eger boyle bir ogrenci yoksa da hata verir
 
 ![8 simdi müzik dersini ogrenciden kaldıralım](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/a665aff7-7e70-4c33-a3f8-8e07135ec852)
 
-8 simdi müzik dersini ogrenciden kaldıralım
+8- simdi müzik dersini ogrenciden kaldıralım
 
 ![9](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/770afc40-8ed1-43ec-8cd7-4f79231b9d86)
 
-9
+9-
 
 ![10 simdi 17 id numaralı kursa kayıtlı olan ogrencileri listeledik](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/fbbcf2b8-2864-42df-a8e6-34a1e27b55ad)
 
-10 simdi 17 id numaralı kursa kayıtlı olan ogrencileri listeledik
+10- simdi 17 id numaralı kursa kayıtlı olan ogrencileri listeledik
 
 ![11 simdi 18 id numaralı kursa kayitlı ogrencileri listeledik hic ogrenci yok](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/9be93b2d-2339-4157-80f2-13074db03b57)
 
-11 simdi 18 id numaralı kursa kayitlı ogrencileri listeledik hic ogrenci yok
+11- simdi 18 id numaralı kursa kayitlı ogrencileri listeledik hic ogrenci yok
 
 
 ############################################################################################################################
 ############################################################################################################################
+
+![1 simdi bir Student useri olusturalım Studentlerimizin hepsi User i miras alır aynı tabloda barınacakları sekilde ayarladım](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/c1dd4276-77dc-4751-bfc9-0124af699c6a)
+
+1- simdi bir Student useri olusturalım Studentlerimizin hepsi User i miras alır aynı tabloda barınacakları sekilde ayarladım
+
+![2 basarili](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/d75c1779-e863-4469-b737-1f28c12c5dd5)
+
+2- basarili
+
+![3 simdi authenticate islemi yapalım ve tokenimizi yenileyelim 13 numaralı id deki kullanıcı icin tokenleri yenileyecegim](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/de56f395-8d13-4370-83fd-1a802fb3704b)
+
+3- simdi authenticate islemi yapalım ve tokenimizi yenileyelim 13 numaralı id deki kullanıcı icin tokenleri yenileyecegim
+
+![4 basarili yeni token dondu](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/6b57ad43-4361-4c84-ac70-a5113e5d5a5a)
+
+4- basarili yeni token dondu
+
+![5 görüldügü gibi eski token expired ve revoke degerleri true olarak atandı ve yeni token olustu](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/020df44c-6ee1-412f-9ef0-e717327528bd)
+
+5- görüldügü gibi eski token expired ve revoke degerleri true olarak atandı ve yeni token olustu
+
+![6 simdi 13 numarali id deki useri silelim](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/e09e6b55-6a3f-42d0-a92d-983853702e6a)
+
+6- simdi 13 numarali id deki useri silelim
+
+![7 13 numarali useri sildigimizde Cascade den dolayı 13 numaralı idnin tokenlerde silinecek](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/3223ad92-cd90-4d57-b373-d7fff65f45b2)
+
+7- 13 numarali useri sildigimizde Cascade den dolayı 13 numaralı idnin tokenlerde silinecek
+
+![8 basarili](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/a93ba2ec-6f6d-4700-9a0b-4d326449739f)
+
+8- basarili
+
+![9 goruldugu gibi tokenlar gitti](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/1a8fb565-7b47-4ae5-9cce-6bf27d0f497b)
+
+9- goruldugu gibi tokenlar gitti
+
+![10 peki üzerine ders atanmıs bir student silinebilir mi](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/a0f0058f-dbad-4189-a4f3-71e764721488)
+
+10- peki üzerine ders atanmıs bir student silinebilir mi
+
+![11 hayır çünkü ilk olarak bu student'dan dersleri kaldırmamız gerek kaldırdıktan sonra silebiliriz](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/169fbefe-095e-4230-9f95-a68b46e7a7f8)
+
+11- hayır çünkü ilk olarak bu student'dan dersleri kaldırmamız gerek kaldırdıktan sonra silebiliriz
+
+############################################################################################################################
+############################################################################################################################
+
+![1 simdi user'imizin parolasını degistirelim](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/633b51f6-b736-4ccb-aa35-0c3a5a3d83ce)
+
+1- simdi user'imizin parolasını degistirelim
+
+![2 su an ki parolası](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/d6d6a6f3-bd98-4e65-9cb2-8784e0bc4f4d)
+
+2- su an ki parolası
+
+![3 parolası degisti](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/e5f8c969-68bb-477f-9150-a094d5ff78fd)
+
+3- parolası degisti
+
+
+
+
+
+
+
+
+
 
 
 

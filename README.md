@@ -6,7 +6,9 @@ ADMIN rolüne sahip bir kullanıcının JWTsini kullanarak @RequestMapping'i "/a
 
 DTO paketindeki response objelerini tek bir base BaseResponse adında abstract class oluşturup "message" degiskenini orada barındırabilirdim fakat kodlama isleminin sonuna dogru bu islemi akıl edebildim benim hatam, birçok yerde degisiklik yapmak gerekli olduğu için yetiştiremedim
 
-React tarafını yetiştiremedim kusura bakmayın
+React tarafını ve Birim testkerini yetiştiremedim kusura bakmayın
+
+Postman'de APIleri deneyebilmeniz için collections oluşturdum "studentManagementAPI.postman_collection.json" dosyasına bakınız
 
 ![1-TOKEN belirtmeden istek attıgım icin hata aldım yetkili birisinin ADMIN birisinin istek atması gerekiyor ADMIN olan birinin tokenini kullanalım](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/a8623402-1b88-4f69-a7a1-5aed80125bdc)
 

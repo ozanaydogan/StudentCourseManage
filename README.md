@@ -91,3 +91,60 @@ React tarafını yetiştiremedim kusura bakmayın
 ![21 eger idsinbi belirttigimiz ogrenci yoksa hata doner](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/df086def-dab2-4ba0-b153-a89c5f6e4694)
 
 21- eger idsinbi belirttigimiz ogrenci yoksa hata doner
+
+############################################################################################################################
+############################################################################################################################
+
+![1 kayıtlı tum ogrencileri getirdik](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/cc1997d6-3462-4783-9e06-c4e522356a23)
+
+1 kayıtlı tum ogrencileri getirdik
+
+![2 idye gore student getirdik](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/10b7ff9d-bfd4-413e-94a3-68d9e63e80fe)
+
+2 idye gore student getirdik
+
+![3 student yoksa null doner](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/aa267b3a-d880-41ce-aa0d-91a05c8cf802)
+
+3 student yoksa null doner
+
+![4 simdi ogrenciye ders atadık](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/d6bb9e09-5146-4ff7-821f-cad5354f09d1)
+
+4 simdi ogrenciye ders atadık
+
+![5](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/8e0ab4f0-2e5b-49c6-8568-3c9f5994507a)
+
+5
+
+![6 eğer ogrenci bu kursa sahipse hata verir](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/237df2f6-163b-4f02-93f1-7e8cf45905e9)
+
+6 eğer ogrenci bu kursa sahipse hata verir
+
+![7 eger boyle bir ogrenci yoksa da hata verir](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/2c5a239a-44e3-4dc9-b55a-bc57065f42fe)
+
+7 eger boyle bir ogrenci yoksa da hata verir
+
+![8 simdi müzik dersini ogrenciden kaldıralım](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/a665aff7-7e70-4c33-a3f8-8e07135ec852)
+
+8 simdi müzik dersini ogrenciden kaldıralım
+
+![9](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/770afc40-8ed1-43ec-8cd7-4f79231b9d86)
+
+9
+
+![10 simdi 17 id numaralı kursa kayıtlı olan ogrencileri listeledik](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/fbbcf2b8-2864-42df-a8e6-34a1e27b55ad)
+
+10 simdi 17 id numaralı kursa kayıtlı olan ogrencileri listeledik
+
+![11 simdi 18 id numaralı kursa kayitlı ogrencileri listeledik hic ogrenci yok](https://github.com/ozanaydogan/StudentCourseManage/assets/49997690/9be93b2d-2339-4157-80f2-13074db03b57)
+
+11 simdi 18 id numaralı kursa kayitlı ogrencileri listeledik hic ogrenci yok
+
+
+############################################################################################################################
+############################################################################################################################
+
+
+
+
+
+

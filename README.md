@@ -4,9 +4,7 @@
 
 ADMIN rolüne sahip bir kullanıcının JWTsini kullanarak @RequestMapping'i "/api/v1/course", "/api/v1/student" olarak atanmış endpointlere istek atabilirsiniz. Postman'den Bearer Token'i Header için ayarlayıp istek atın yoksa  403 hatası alırsınız
 
-DTO paketindeki response objelerini tek bir base BaseResponse adında abstract class oluşturup "message" degiskenini orada barındırabilirdim fakat kodlama isleminin sonuna dogru bu islemi akıl edebildim benim hatam, birçok yerde degisiklik yapmak gerekli olduğu için yetiştiremedim
-
-React tarafını ve Birim testkerini yetiştiremedim kusura bakmayın
+DTO paketindeki response objelerini tek bir base BaseResponse adında abstract class oluşturup "message" degiskenini orada barındırabilirdim 
 
 Postman'de APIleri deneyebilmeniz için collections oluşturdum "studentManagementAPI.postman_collection.json" dosyasına bakınız
 
